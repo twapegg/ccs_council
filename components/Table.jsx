@@ -40,7 +40,7 @@ export default function Table({ data }) {
             ID={item.ID}
             NAME={item.NAME}
             COURSE={item.COURSE}
-            YEAR_LEVEL={item["YEAR LEVEL"]}
+            YEAR_LEVEL={item.YEAR_LEVEL}
             UNITS={item.UNITS}
           />
         ))}
